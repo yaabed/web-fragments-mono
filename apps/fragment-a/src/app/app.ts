@@ -1,15 +1,14 @@
-import { Component, NO_ERRORS_SCHEMA } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NxWelcome } from './nx-welcome';
 
 @Component({
-  schemas: [NO_ERRORS_SCHEMA],
-  standalone: true,
   imports: [NxWelcome, RouterModule],
+  standalone: true,
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrls: ['./app.scss'],
 })
 export class App {
-  protected title = 'host';
+  protected title = 'fragment-a';
 }

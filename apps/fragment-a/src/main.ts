@@ -1,10 +1,6 @@
 import 'zone.js';
-
-// @ts-ignore
-import {initializeWebFragments} from 'web-fragments';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { appConfig } from './app/app.config';
 import { App } from './app/app';
 
-initializeWebFragments();
 bootstrapApplication(App, appConfig).catch((err) => console.error(err));

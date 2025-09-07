@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-nx-welcome',
-  standalone: true,
   imports: [CommonModule],
+  standalone: true,
   template: `
     <!--
      * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -433,7 +433,7 @@ import { CommonModule } from '@angular/common';
         <div id="welcome">
           <h1>
             <span> Hello there, </span>
-            Welcome host 👋
+            Welcome fragment-a 👋
           </h1>
         </div>
         <!--  HERO  -->
@@ -802,7 +802,7 @@ nx run-many -t build test lint</pre>
               </svg>
               View project details
             </summary>
-            <pre>nx show project host</pre>
+            <pre>nx show project fragment-a</pre>
           </details>
 
           <details>
